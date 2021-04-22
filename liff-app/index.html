@@ -1,9 +1,11 @@
 <html>
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <script src=" https://d.line-scdn.net/liff/1.0/sdk.js"></script>
     <script src="liff.js"></script>
     <link rel="stylesheet" type="text/css" href="liff.css" />
   </head>
@@ -35,7 +37,9 @@
         <tr>
           <th class="device-info-cell device-info-key">Button state</th>
           <td class="device-info-cell device-info-val">
-            <button id="btn-state" class="btn btn-state" disabled>Released</button>
+            <button id="btn-state" class="btn btn-state" disabled>
+              Released
+            </button>
           </td>
         </tr>
         <tr>
@@ -46,10 +50,15 @@
       <hr />
       <!-- Toggle LED -->
       <p>
-        <button id="btn-led-toggle" class="btn btn-led-toggle" onclick="handlerToggleLed()">Switch LED ON</button>
+        <button
+          id="btn-led-toggle"
+          class="btn btn-led-toggle"
+          onclick="handlerToggleLed()"
+        >
+          Switch LED ON
+        </button>
       </p>
       <hr />
     </div>
   </body>
-
 </html>
